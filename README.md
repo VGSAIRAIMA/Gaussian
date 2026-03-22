@@ -9,10 +9,13 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 
 ## Algorithm
 ```
-1. 
-2. 
-3. 
-4.
+1. Input the number of unknowns n and the augmented matrix of the system of equations.
+
+2. Convert the matrix into an upper triangular form using forward elimination.
+
+3. Apply back substitution to compute the values of the unknown variables.
+
+4. Display the solution vector and stop the program.
 ````
 
 ## Program:
@@ -51,7 +54,7 @@ print(f"X0 = {x[0]:.2f} X1 = {x[1]:.2f} X2 = {x[2]:.2f}")
 ```
 
 ## Output:
-![gaussian elimination]()
+![image](https://github.com/VGSAIRAIMA/Gaussian/blob/main/Screenshot%202026-03-22%20162705.png)
 
 
 ## Result:
